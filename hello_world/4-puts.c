@@ -1,4 +1,3 @@
-#!/bin/bash
 c
 
 #include <stdio.h> // Include standard input/output library
