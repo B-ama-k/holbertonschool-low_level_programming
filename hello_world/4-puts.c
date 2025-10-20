@@ -1,4 +1,4 @@
-c
+gcc -o
 
 #include <stdio.h> // Include standard input/output library
 
