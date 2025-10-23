@@ -6,7 +6,7 @@
 *
 * Return: always 0 (success)
 */
-void main(void)
+int main(void)
 {
 char nombre;
 for (nombre = '0'; nombre <= '10'; nombre++)
