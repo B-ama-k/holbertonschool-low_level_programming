@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
- /**
+/**
  * _isalpha - check if lower & upper
  * @c: char to check ASCII.
- * Return: always 1 if lower and 0 if not.
+ * Return: always 1 if lower and 0 is not.
  */
 int _isalpha(int c)
 {
