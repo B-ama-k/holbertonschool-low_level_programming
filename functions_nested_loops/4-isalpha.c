@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
  /**
- * _isalpha - check if alphabetic character
+ * _isalpha - check if lower & upper
  * @c: carac to check ASCII.
- * Return: always 1 if letter, lower or upper and 0 if not.
+ * Return: always 1 if lower and 0 if not.
  */
 int _isalpha(int c)
 {
