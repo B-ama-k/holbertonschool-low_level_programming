@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * print_alphabet - affiche l'alphabet 10 fois
+ * print_alphabet_x10 - affiche l'alphabet 10 fois
  *
  * Return: always 0.
  */
