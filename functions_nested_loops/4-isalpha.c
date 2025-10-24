@@ -3,7 +3,7 @@
 #include "main.h"
  /**
  * _isalpha - check if lower & upper
- * @c: carac to check ASCII.
+ * @c: char to check ASCII.
  * Return: always 1 if lower and 0 if not.
  */
 int _isalpha(int c)
