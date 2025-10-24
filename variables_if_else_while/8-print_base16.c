@@ -9,7 +9,8 @@
 int main(void)
 {
 int nombre;
-for (nombre = '0'; nombre <= 15; nombre++)
+for (nombre = '0'; nombre <= '9'; nombre++)
+for (nombre = 'a'; nombre <= 'f'; nombre++)
 putchar(nombre);
 putchar('\n');
 return (0);
