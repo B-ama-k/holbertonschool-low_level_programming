@@ -1,62 +1,37 @@
 #include "main.h"
 /**
-* times_table:
-*
-*
-*/
+ * times_table - table de multiplications
+ *
+ * Return: always 0 (success)
+ */
 void times_table(void)
 {
-int 0;
-int 1;
-int 2;
-int 3;
-int 4;
-int 5;
-int 6;
-int 7;
-int 8;
-int 9;
+int n, i, res;
 
-for (0 = '0'; 0 < '0'; 0++)
+for (n = 0; n <= 9; n++)
 {
-for (1 = '0'; 1 < 10; 1++)
+for (i = 0; i <= 9; i++)
 {
-for (2 = '0'; 2 < 20; 2++)
+res = n * i;
+
+if (res < 10)
 {
-for (3 = '0'; 3 < 30; 3++)
+if (i != 0)
+_putchar(' ');
+_putchar(res + '0');
+}
+else
 {
-for (4 = '0'; 4 < 40; 4++)
+_putchar((res / 10) + '0');
+_putchar((res % 10) + '0');
+}
+
+if (i != 9)
 {
-for (5 = '0'; 5 < 50; 5++)
-{
-for (6 = '0'; 6 < 60; 6++)
-{
-for (7 = '0'; 7 < 70; 7++)
-{
-for (8 = '0'; 8 < 80; 8++)
-{
-for (9 = '0'; 9 < 90; 9++)
-{
-_putchar((0 * 0) + '0');
-_putchar((1 * 1) + '1');
-_putchar((2 * 2) + '2');
-_putchar((3 * 3) + '3');
-_putchar((4 * 4) + '4');
-_putchar((5 * 5) + '5');
-_putchar((6 * 6) + '6');
-_putchar((7 * 7) + '7');
-_putchar((8 * 8) + '8');
-_putchar((9 * 9) + '9');
+_putchar(',');
+_putchar(' ');
+}
+}
 _putchar('\n');
 }
-}
-}
-}
-}
-}
-}
-}
-}
-}
-return(9);
 }
