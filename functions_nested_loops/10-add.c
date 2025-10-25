@@ -1,15 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table - table de multiplications
+ * add(int, int) - a + b
  *
  * Return: always 0 (success)
  */
-int add(int, int)
-
+int add(int a, int b)
 {
-int a;
-int b;
-
 return (a + b);
 }
