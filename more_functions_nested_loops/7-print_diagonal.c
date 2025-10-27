@@ -2,20 +2,20 @@
 /**
 * print_diagonal - draws diagonal line
 * @n: number of line for char
-*
+* return: (success)
 */
 
 void print_diagonal(int n)
 {
-int diag;
-int space;
+int i, j;
 if (n <= 0)
 {
 _putchar('\n');
+return;
 }
-for (diag = '0'; diag < n; diag++)
+for (i = '0'; i < n; i++)
 {
-for (space = '0'; space < diag; space++)
+for (j = '0'; j < i; j++)
 _putchar(' ');
 _putchar('\\');
 _putchar('\n');
