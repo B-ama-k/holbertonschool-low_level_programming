@@ -11,7 +11,7 @@ int diag;
 int space;
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 for (diag = '0'; diag < n; diag++)
 {
