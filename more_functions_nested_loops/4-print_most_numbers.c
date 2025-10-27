@@ -2,7 +2,7 @@
 
 /**
 * print_most_numbers - print numbers.
-* @n: print all number but not 2 and 4.
+* 
 * Return: (success)
 */
 
