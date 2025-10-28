@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - entry
+* main - print 0 to 100 w/ Fizz & Buzz
 *
-* return: 0 (success).
+* return: always 0.
 */
 int main(void)
 {
