@@ -11,9 +11,9 @@ if (size <= 0)
 { 
 _putchar('\n');
 }
-for (h = 1; h <= size; h++);
+for (h = 1; h <= size; h++)
 {
-for (s = 1; s <= size - h; s++);
+for (s = 1; s <= size - h; s++)
 _putchar(' ');
 for (s = 1; s <= h; s++)
 _putchar('#');
