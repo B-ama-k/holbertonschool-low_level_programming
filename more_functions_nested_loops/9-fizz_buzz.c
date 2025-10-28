@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /**
-* main - print 0 to 100 w/ Fizz & Buzz
+* main - prints from 1 to 100
 *
-* return: always 0.
+* Return: Always 0
 */
 int main(void)
 {
