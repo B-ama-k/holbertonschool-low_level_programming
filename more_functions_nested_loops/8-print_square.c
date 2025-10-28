@@ -9,9 +9,9 @@ int longueur, large;
 
 if (size > 0)
 {
-for (longueur = '0'; longueur < size; longueur++)
+for (longueur = 0; longueur < size; longueur++)
 {
-for (large = '0'; large < size; large++)
+for (large = 0; large < size; large++)
 _putchar('#');
 
 if (longueur == size - 1)
