@@ -3,9 +3,9 @@
 
 /**
 * _strcpy - Copy a string
-* @dest: the dest of the string
-* @src: the source of the string
-* Return : the string
+* @dest: Destination de la string
+* @src: Source de la string
+* Return: La string
 */
 
 char *_strcpy(char *dest, char *src)
