@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* _strcpy - copy the strings
+* _strcpy - Copy a string
 * @dest: the dest of the string
 * @src: the source of the string
 * Return : the string
