@@ -8,6 +8,7 @@ void print_rev(char *s)
 {
 	int c = 0;
 	char i;
+	
 	for (; s[c] != '\0'; c++)
 	{
 		for (i = c - 1; i >= 0; i--)
