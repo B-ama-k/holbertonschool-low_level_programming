@@ -5,7 +5,7 @@
 * _strcmp - compare two strings.
 * @s1: first string.
 * @s2: second string.
-* Return: 
+* Return: s1 - s2.
 */
 
 int _strcmp(char *s1, char *s2)
@@ -18,4 +18,5 @@ int _strcmp(char *s1, char *s2)
 		return (s1[c] - s2[c]);
 		c++;
 	}
+	return (s1[c] - s2[c]);
 }
