@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* string_toupper : change lowercases for uppercases
+* string_toupper - change lowercases for uppercases
 * @str: string to change.
 * Return: str.
 */
