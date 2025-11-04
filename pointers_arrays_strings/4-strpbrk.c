@@ -4,7 +4,7 @@
 * _strpbrk - searches a string for any of a set of bytes.
 * @s: string to search.
 * @accept: string containing the byte.
-* Return: first byte of s match with one of the bytes 
+* Return: first byte of s match with one of the bytes
 * of accept, or NULL if no one found.
 */
 
