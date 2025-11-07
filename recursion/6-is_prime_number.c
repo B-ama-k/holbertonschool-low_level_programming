@@ -24,7 +24,7 @@ int is_prime_number(int n)
 * 0 if divise is found.
 */
 
-int check(int i, int n)
+int check(int n, int i)
 {
 	if (i * i > n)
 	{
