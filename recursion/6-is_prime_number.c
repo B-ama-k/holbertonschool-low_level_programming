@@ -1,5 +1,6 @@
 #include "main.h"
 
+int check(int n, int i);
 /**
 * check - test recursive if n is a diviser.
 * @i: diviseur a tester.
