@@ -2,6 +2,21 @@
 
 int check(int n, int i);
 /**
+* is_prime_number - check if n is prime
+* @n: Integer to check
+* Return: 1 if prime, 0 if not.
+*/
+
+int is_prime_number(int n)
+{
+	if (n <= 1)
+	{
+		return (0);
+	}
+	return (check(n, 2));
+}
+
+/**
 * check - test recursive if n is a diviser.
 * @i: diviseur a tester.
 * @n: nombre à tester.
@@ -23,19 +38,4 @@ int check(int i, int n)
 	{
 		return (check(n, i + 1));
 	}
-}
-
-/**
-* is_prime_number - check if n is prime
-* @n: Integer to check
-* Return: 1 if prime, 0 if not.
-*/
-
-int is_prime_number(int n)
-{
-	if (n <= 1)
-	{
-		return (0);
-	}
-	return (check(n, 2));
 }
