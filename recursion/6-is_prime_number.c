@@ -23,6 +23,7 @@ int check(int i, int n)
 		return (check(n, i + 1));
 	}
 }
+
 /**
 * is_prime_number - check if n is prime
 * @n: Integer to check
