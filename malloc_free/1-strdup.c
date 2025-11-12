@@ -20,7 +20,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (; str[i] = '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		j++;
 	}
@@ -31,7 +31,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		arr[i] = str[i];
 	}
