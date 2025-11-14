@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
+#include "main.h"
 
 /**
-* _strlen: lenght of the str.
-* @s: str to check.
-* Return: lenght of s.
-*/
+ * _strlen - length of a string
+ * @s: string
+ * Return: length of s
+ */
 int _strlen(char *s)
 {
 	int i = 0;
@@ -17,12 +17,11 @@ int _strlen(char *s)
 }
 
 /**
-* _strcpy - copy a str.
-* @d: dest of the str.
-* @s: source of the str.
-* Return: the str.
-*/
-
+ * _strcpy - copy a string
+ * @d: destination
+ * @s: source
+ * Return: pointer to d
+ */
 char *_strcpy(char *d, char *s)
 {
 	int i = 0;
@@ -33,13 +32,12 @@ char *_strcpy(char *d, char *s)
 }
 
 /**
-* new_dog - create a new dog
-* @name: name of the new dog
-* @age: age of the new dog
-* @owner: owner of the new dog
-* Return: new dog (pug), error (NULL).
-*/
-
+ * new_dog - create a new dog
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner
+ * Return: pointer to new dog, or NULL
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog = malloc(sizeof(dog_t));
@@ -49,11 +47,18 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog->name = malloc(_strlen(name) + 1);
 	if (!dog->name)
+	{
+		free(dog);
 		return (NULL);
+	}
 
 	dog->owner = malloc(_strlen(owner) + 1);
 	if (!dog->owner)
+	{
+		free(dog->name);
+		free(dog);
 		return (NULL);
+	}
 
 	_strcpy(dog->name, name);
 	_strcpy(dog->owner, owner);
