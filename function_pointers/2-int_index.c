@@ -2,7 +2,7 @@
 /**
  * int_index - finds the first element matching cmp
  * @array: array to search
- * @size: number of elements
+ * @size: number of elements in the @array
  * @cmp: comparison function
  *
  * Return: index of first match, or -1 if none
