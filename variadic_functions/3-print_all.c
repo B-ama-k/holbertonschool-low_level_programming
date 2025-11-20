@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include "variadic_functions.h"
 
 /**
 * print_all - that prints anything.
@@ -7,6 +8,7 @@
 * Desc: c = char, i = int, f = float, s = string.
 * Ignores unknown format characters.
 */
+
 void print_all(const char * const format, ...)
 {
 	va_list ap;
