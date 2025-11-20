@@ -2,9 +2,8 @@
 #include <stdarg.h>
 /**
 * sum_them_all - the sum of all its parameters
-* @n: 
-*
-*
+* @n: num of past.
+* Return: sum (success), 0 (fail).
 */
 
 int sum_them_all(const unsigned int n, ...)
